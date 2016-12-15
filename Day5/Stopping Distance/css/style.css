@@ -1,0 +1,66 @@
+body {
+    background: url('../car.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+    background-color: none;
+}
+
+.jumbotron{
+    background-color:white !important;
+}
+
+.header-title{
+    color: rgb(133, 131, 116) !important;
+}
+
+.panel-title {
+  font-size: 4rem;
+}
+
+.panel.panel-primary{
+    background-color: rgba(133, 131, 116, 0.9);
+    color: white;
+}
+
+.panel {
+    box-shadow: 1px 1px 15px rgba(0,0,0,.55);
+}
+
+// Relavant Code
+
+.highlight-panel {
+  padding-top: 4rem;
+  
+  .panel {
+    height: 40rem;
+    position: relative;
+    
+    .bottom {
+      position: absolute;
+      bottom: 4rem;
+      left: 0;
+      right: 0;
+    }
+  }
+  
+  .primary {
+    margin-top: -4rem;
+    z-index: 2;
+    
+    .panel {
+      height: 44rem;
+    }
+  }
+  
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
